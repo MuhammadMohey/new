@@ -14,7 +14,7 @@ body {
 /*================================================*/
 
 .section-1 {
-    background-image: url(./image/section-1/bg.png) !important;
+    background-image: url(/image/section-1/bg.png) !important;
     height: auto;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -35,7 +35,7 @@ body {
 
 .section-2 .container .icons .icons-1 .tet-11:hover a {
     color: rgb(64, 64, 255) !important;
-}
+}   
 
 /*=============================================*/
 /*===============-Section-Our Services====================*/
@@ -85,7 +85,7 @@ body {
 /*======================================================*/
 
 .section-4 .Action {
-    background-image: url(../image/section-3/cta-bg.jpg);
+    background-image: url(/image/section-3/cta-bg.jpg) !important;
     background-attachment: fixed;
     height: auto;
     background-repeat: no-repeat;
@@ -126,7 +126,7 @@ body {
 
 
 .section-5 .Carsol {
-    background-image: url(../image/section-5/testimonials-bg.jpg) !important;
+    background-image: url(/image/section-5/testimonials-bg.jpg) !important;
     background-attachment: fixed;
     height: auto;
     object-fit: cover;
