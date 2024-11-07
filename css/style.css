@@ -1,0 +1,188 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: auto;
+    font-family: sans-serif;
+}
+
+/*================================================*/
+/*=======================headar=========================*/
+/*================================================*/
+
+.section-1 {
+    background-image: url(./image/section-1/bg.png) !important;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-1 .navbar .nav-item:hover .nav-link {
+    color: white !important;
+}
+
+
+/*=============================================*/
+/*==================section-about-us===========================*/
+/*=============================================*/
+
+.section-2 .container .icons .icons-1 .tet-11:hover a {
+    color: rgb(64, 64, 255) !important;
+}
+
+/*=============================================*/
+/*===============-Section-Our Services====================*/
+/*=============================================*/
+.section-header span {
+    position: absolute;
+    color: rgba(14, 29, 52, 0.06);
+    left: 0;
+    right: 0;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 56px;
+    text-transform: uppercase;
+    line-height: 0;
+}
+
+.section-header h2 {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #001973;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+
+.classes .im {
+    overflow: hidden;
+}
+
+.classes .im img {
+    transition: all 0.4s ease-in-out;
+}
+
+.classes .im:hover img {
+    transform: scale(1.2);
+}
+
+
+/*======================================================*/
+/*===========================section-4===========================*/
+/*======================================================*/
+
+.section-4 .Action {
+    background-image: url(./image/section-3/cta-bg.jpg);
+    background-attachment: fixed;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-4 .Action .Action-2 {
+    height: 45vh !important;
+}
+
+
+@media(max-width : 768px) {
+    .section-1 .header .image {
+        order: -1 !important;
+    }
+}
+
+.section-4 .Action-2 .btn:hover {
+    background-color: blue !important;
+    border-color: blue !important;
+}
+
+
+/*======================================================*/
+/*===========================section-5===========================*/
+/*======================================================*/
+
+
+.section-5 .pricing .btn:hover {
+    background-color: blue !important;
+    border-color: blue !important;
+    color: white !important;
+}
+
+
+.section-5 .Carsol {
+    background-image: url(./image/section-5/testimonials-bg.jpg) !important;
+    background-attachment: fixed;
+    height: auto;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.testimonial {
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.testimonial img {
+    margin-bottom: 10px;
+}
+
+.stars span {
+    color: #FFD700;
+}
+
+.quote {
+    font-style: italic;
+    color: #dcdcdc;
+}
+
+
+
+
+
+
+.section-7 .container .border-secondary:hover {
+    border-color: white !important;
+
+}
+
+.section-7 .container .border-secondary:hover .fa-facebook {
+    color: #509bfd !important;
+}
+
+.section-7 .container .border-secondary:hover .fa-instagram {
+    color: #ff52b4 !important;
+}
+.section-7 .container .border-secondary:hover .fa-linkedin {
+    color: #2492ff !important;
+}
+.section-7 .container .border-secondary:hover .fa-twitter {
+    color: #35b1ff !important;
+}
+
+.section-7 .container .link-footer:hover{
+    color: white !important;
+}
+
