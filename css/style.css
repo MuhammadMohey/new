@@ -85,7 +85,7 @@ body {
 /*======================================================*/
 
 .section-4 .Action {
-    background-image: url(/image/section-3/cta-bg.jpg) !important;
+    background-image: url(./image/section-3/cta-bg.jpg) !important;
     background-attachment: fixed;
     height: auto;
     background-repeat: no-repeat;
@@ -126,7 +126,7 @@ body {
 
 
 .section-5 .Carsol {
-    background-image: url(/image/section-5/testimonials-bg.jpg) !important;
+    background-image: url(./image/section-5/testimonials-bg.jpg) !important;
     background-attachment: fixed;
     height: auto;
     object-fit: cover;
