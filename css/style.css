@@ -14,7 +14,7 @@ body {
 /*================================================*/
 
 .section-1 {
-    background-image: url(/image/section-1/bg.png) !important;
+    background-image: url(./image/section-1/bg.png) !important;
     height: auto;
     background-repeat: no-repeat;
     background-size: 100% 100%;
